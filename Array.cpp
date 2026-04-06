@@ -12,5 +12,7 @@ int main(){
     aku[1] = 200;
     cout << endl;
     cout << "Data pada indeks 1 = " << aku[1] << endl;
+    //mengisi satu per satu
+    cout << "Data indeks 0 = ";
 
 }
