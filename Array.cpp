@@ -10,4 +10,6 @@ int main(){
     cout << "Data pada indeks 1 = " << aku[1] << endl;
     //ganti indeks ke 1
     aku[1] = 200;
+    cout << endl;
+    
 }
