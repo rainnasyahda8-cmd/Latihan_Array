@@ -8,4 +8,6 @@ int main(){
     int kamu[5];
     //tampilkan data
     cout << "Data pada indeks 1 = " << aku[1] << endl;
+    //ganti indeks ke 1
+    aku[1] = 200;
 }
