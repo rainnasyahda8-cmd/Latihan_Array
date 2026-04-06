@@ -15,6 +15,17 @@ int main(){
     //mengisi satu per satu
     cout << "Data indeks 0 = ";
     cin >> kamu[0];
-    
+    cout << "Data indeks 1 = ";
+    cin >> kamu[1];
+    cout << "Data indeks 2 = ";
+    cin >> kamu[2];
+    cout << "Data indeks 3 = ";
+    cin >> kamu[3];
+    cout << "Data indeks 4 = ";
+    cin >> kamu[4];
+    cout << endl;
+    //menampilkan satu per satu
+    cout << "Data Pertama = " << kamu[0] << endl;
+
 
 }
