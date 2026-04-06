@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     // deklarasi dengan inisiasi
     int aku[5] = {10,20,30,40,50};
     // deklarasi array tanpa inisialisasi
@@ -34,6 +35,33 @@ int main(){
 
     //mengisi dengan menggunakan perulangan for
     for (int i = 0; i <= 4; i++)
+    {
+        cout << "Data index ke-" << i << " = ";
+        cin >> kamu[i];
+    }
+    cout << endl;
+    //menampilkan dengan menggunakn perulangan for
+    int main()
+    {
+        cout << "Data Pertama = " << kamu[0] << endl;
+        cout << "Data Kedua = " << kamu[1] << endl;
+        cout << "Data Ketiga = " << kamu[2] << endl;
+        cout << "Data Keempat = " << kamu[3] << endl;
+        cout << "Data Kelima = " << kamu[4] << endl;
+        cout << endl;
+
+        for (int i = 0; i <= 4; i++)
+        {
+            cout << "Data index ke-" << i << " = ";
+            cin>> kamu[i];
+        }
+        cout << endl;
+
+        for (int i = 0; i <= 4; i++)
+        {
+            cout << "Data ke-" << i+1 << " = " << kamu[i] << endl;
+        }
+    }
 
 
 }
