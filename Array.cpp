@@ -14,5 +14,7 @@ int main(){
     cout << "Data pada indeks 1 = " << aku[1] << endl;
     //mengisi satu per satu
     cout << "Data indeks 0 = ";
+    cin >> kamu[0];
+    
 
 }
